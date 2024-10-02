@@ -1,0 +1,3 @@
+pyinstaller --onefile --add-data "tinder_paths.py:." tinder.py
+pyinstaller TinderAutoFire.spec
+pyinstaller --onefile tinder_paths.py
